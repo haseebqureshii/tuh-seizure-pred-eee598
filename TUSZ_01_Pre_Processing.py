@@ -90,7 +90,7 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Windowing params
 WIN_LEN_S = 30   # seconds per window
-HOP_S     = 2.5 * 60    # seconds hop (50% overlap)
+HOP_S     = 15    # seconds hop (50% overlap)
 
 # --- Prediction labeling policy (all times in SECONDS) ---
 SOP_MIN = 20 * 60          # 20 minutes before seizure onset (pre-ictal start)
